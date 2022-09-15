@@ -5,7 +5,10 @@ import (
 )
 
 func main() {
-	// 初始化日志
-	example.Logging()
+	//// 初始化日志
+	//example.Logging()
+
+	// JWT
+	example.Jwt()
 
 }
