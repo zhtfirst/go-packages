@@ -16,3 +16,11 @@ worker:
 mysql: root:q145145145@tcp(127.0.0.1:3306)/mutual?parseTime=true&loc=Local&charset=utf8mb4&collation=utf8mb4_unicode_ci
 # 从库(只读)
 mysql_read: root:q145145145@tcp(127.0.0.1:3306)/mutual?parseTime=true&loc=Local&charset=utf8mb4&collation=utf8mb4_unicode_ci
+
+# Redis
+redis_conf:
+  username: ""
+  password: "123456"
+  hosts: "127.0.0.1:6379"
+  prefix: "demo"
+  db: 0

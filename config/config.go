@@ -36,7 +36,7 @@ func GetString(keys ...string) string {
 	return value.String()
 }
 
-func GetInt(keys ...string) (result int64) {
+func GetInt64(keys ...string) (result int64) {
 	value := GlobalConfig.Get("")
 	for _, k := range keys {
 		value = value.Get(k)
