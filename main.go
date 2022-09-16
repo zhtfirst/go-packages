@@ -16,4 +16,7 @@ func main() {
 	//// Redis 数据库连接
 	//example.RedisConnect()
 
+	//// snowflake 分布式ID生成器
+	//example.Snowflake()
+
 }
