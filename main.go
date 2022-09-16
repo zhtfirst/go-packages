@@ -8,7 +8,10 @@ func main() {
 	//// 初始化日志
 	//example.Logging()
 
-	// JWT
-	example.Jwt()
+	//// JWT
+	//example.Jwt()
+
+	// 获取配置
+	example.GetConfig()
 
 }
