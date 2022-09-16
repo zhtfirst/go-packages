@@ -11,7 +11,7 @@ var GlobalConfig *uber_config.YAML
 func Setup(path string) {
 	//指定配置文件路径
 	if len(path) == 0 {
-		path = "conf.d/conf.yaml"
+		path = "example/conf.d/conf.yaml"
 	}
 	var err error
 	GlobalConfig, err = uber_config.NewYAML(uber_config.File(path))

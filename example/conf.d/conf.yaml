@@ -1,0 +1,18 @@
+debug: true
+log_debug: true
+
+# 任务队列
+worker:
+  broker_url: "redis://localhost:6379"
+  brokers: "localhost:6379"
+  default_queue: "machinery_redis_demo"
+  consumer_tag: "machinery_redis_demo"
+  concurrency: 10 # 并发数, 0表示不限制
+  results_expireIn: 300
+  float: 1.003
+  boole: true
+
+# 主库
+mysql: root:q145145145@tcp(127.0.0.1:3306)/mutual?parseTime=true&loc=Local&charset=utf8mb4&collation=utf8mb4_unicode_ci
+# 从库(只读)
+mysql_read: root:q145145145@tcp(127.0.0.1:3306)/mutual?parseTime=true&loc=Local&charset=utf8mb4&collation=utf8mb4_unicode_ci

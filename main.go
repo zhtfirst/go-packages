@@ -11,7 +11,10 @@ func main() {
 	//// JWT
 	//example.Jwt()
 
-	// 获取配置
-	example.GetConfig()
+	//// 获取配置
+	//example.GetConfig()
+
+	// 数据库连接
+	example.DbConnect()
 
 }
