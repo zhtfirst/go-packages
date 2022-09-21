@@ -24,3 +24,7 @@ redis_conf:
   hosts: "127.0.0.1:6379"
   prefix: "demo"
   db: 0
+
+# MongoDB
+mongo_conf:
+  hosts: "mongodb://localhost:27017"

@@ -1,5 +1,7 @@
 package main
 
+import "github.com/zhtfirst/go-packages/example"
+
 func main() {
 	//// 初始化日志
 	//example.Logging()
@@ -18,5 +20,8 @@ func main() {
 
 	//// snowflake 分布式ID生成器
 	//example.Snowflake()
+
+	// MongoDB 数据库连接
+	example.MongoDbConnect()
 
 }
