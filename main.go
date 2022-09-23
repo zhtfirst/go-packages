@@ -21,7 +21,10 @@ func main() {
 	//// snowflake 分布式ID生成器
 	//example.Snowflake()
 
-	// MongoDB 数据库连接
-	example.MongoDbConnect()
+	//// MongoDB 数据库连接
+	//example.MongoDbConnect()
+
+	// handler 助手方法
+	example.HandlerTest()
 
 }
