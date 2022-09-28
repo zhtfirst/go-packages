@@ -3,8 +3,8 @@ package main
 import "github.com/zhtfirst/go-packages/example"
 
 func main() {
-	//// 初始化日志
-	//example.Logging()
+	// 初始化日志
+	example.Logging()
 
 	//// JWT
 	//example.Jwt()
@@ -24,7 +24,7 @@ func main() {
 	//// MongoDB 数据库连接
 	//example.MongoDbConnect()
 
-	// handler 助手方法
-	example.HandlerTest()
+	//// handler 助手方法
+	//example.HandlerTest()
 
 }
