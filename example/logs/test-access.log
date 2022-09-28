@@ -1,2 +1,5 @@
-{"level":"fatal","time":"2022-09-28 17:38:20","caller":"example/logger.go:34","msg":"http server startup err","domain":"go-gin-api[dev]"}
-{"level":"fatal","time":"2022-09-28 17:41:22","caller":"example/logger.go:34","msg111":"http server startup err","domain":"go-gin-api[dev]"}
+{"level":"fatal","time":"2022-09-28 17:53:33","caller":"example/logger.go:38","msg":"http server startup err","domain":"go-gin-api[dev]"}
+{"level":"fatal","time":"2022-09-28 17:55:10","caller":"example/logger.go:38","msg":"http server startup err","domain":"go-gin-api[dev]"}
+{"level":"fatal","time":"2022-09-28 17:55:30","caller":"example/logger.go:38","msg":"http server startup err","domain":"go-gin-api[dev]"}
+{"level":"info","time":"2022-09-28 17:55:42","caller":"example/logger.go:39","msg":"info:","domain":"go-gin-api[dev]","url":"http://example.com","attempt":3,"backoff":0}
+{"level":"error","time":"2022-09-28 17:55:42","caller":"example/logger.go:40","msg":"error:","domain":"go-gin-api[dev]","url":"http://example.com","attempt":3,"backoff":0}

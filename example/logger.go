@@ -31,5 +31,12 @@ func Logging() {
 		panic(err)
 	}
 
-	accessLogger.Fatal("http server startup err", zap.Error(err))
+	defer func() {
+		_ = accessLogger.Sync()
+	}()
+
+	//accessLogger.Fatal("http server startup err", zap.Error(err)) // 致命错误Fatal 级别的日志会立即触发 os.Exit(1), 退出程序
+	accessLogger.Info("info:", zap.String("url", "http://example.com"), zap.Int("attempt", 3), zap.Duration("backoff", 1))
+	accessLogger.Error("error:", zap.String("url", "http://example.com"), zap.Int("attempt", 3), zap.Duration("backoff", 1))
+	fmt.Println("end")
 }
