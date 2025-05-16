@@ -1,0 +1,4 @@
+{"level":"info","time":"2025-05-16 15:00:47","caller":"example/logger.go:39","msg":"info:","domain":"go-gin-api[dev]","url":"http://example.com","attempt":3,"backoff":0}
+{"level":"error","time":"2025-05-16 15:00:47","caller":"example/logger.go:40","msg":"error:","domain":"go-gin-api[dev]","url":"http://example.com","attempt":3,"backoff":0}
+{"level":"info","time":"2025-05-16 15:01:24","caller":"example/logger.go:39","msg":"info:","domain":"go-gin-api[dev]","url":"http://example.com","attempt":3,"backoff":0}
+{"level":"error","time":"2025-05-16 15:01:24","caller":"example/logger.go:40","msg":"error:","domain":"go-gin-api[dev]","url":"http://example.com","attempt":3,"backoff":0}
